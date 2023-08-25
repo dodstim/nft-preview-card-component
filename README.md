@@ -1,4 +1,4 @@
-# Order Summary
+# NFT Preview Card Component
 Project made available by the website **frontendmentor.io** which consists of developing a small card that can be used for the user to view the website on his computer and on his mobile device.
 ## Technology used
 - HTML5
