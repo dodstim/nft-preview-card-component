@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0D1A2D;
+}
+
+#container-all {
+	background-color: #15273E;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 1em 1.5em;
+	max-width: 325px;
+	margin: 7em auto;
+}
+
+#container-image > img{
+	border-radius: 10px;
+	width: 100%;
+}
+
+#description-nft {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin-top: 1em;
+}
+
+#description-nft > h1 {
+	color: white;
+	font-family: 'Poppins';
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#description-nft > span {
+	color: #97B2DB;
+	font-family: 'Poppins';
+	font-size: 0.9rem;
+}
+
+#pricing {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 325px;
+	margin-top: 1em;
+}
+
+#price-eth {
+	color: #27F5F4;
+	font-family: 'Poppins';
+	font-weight: 600;
+}
+
+#data-post {
+	color: #97B2DB;
+	font-family: 'Poppins';
+	font-weight: 500;
+}
+
+#author {
+	border-top: 1px solid #2E4058;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 1.3em;
+	padding-top: 1em;
+}
+
+#image-author > img {
+	width: 2.5em;
+}
+
+#author-info {
+	color: #97B2DB;;
+	font-family: 'Poppins'
+}
+
+#author-name {
+	color: whitesmoke;
+	font-family: 'Poppins';
+}
